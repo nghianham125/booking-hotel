@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_xuly"
+    tools:context=".AfterBooking">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="181dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <TextView
+        android:textSize="25sp"
+
+        android:id="@+id/textView18"
+        android:layout_width="303dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginStart="-114dp"
+        android:layout_marginTop="71dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
